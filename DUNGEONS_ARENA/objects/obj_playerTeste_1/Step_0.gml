@@ -59,5 +59,9 @@ if _velocidade_horizontal > 1 {
 	}
 }
 
+
+
+
+
 x -= _velocidade_horizontal
 y -= _velocidade_vertical
