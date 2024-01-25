@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"15038006-5664-4074-9d51-b0c169e454c6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 3,
+  "origin": 0,
   "parent": {
     "name": "spr_tiles",
     "path": "folders/Sprites/spr_tiles.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
-    "yorigin": 16,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "map",
-    "path": "folders/Objetos/map.yy",
+    "name": "obj_map",
+    "path": "folders/Objetos/obj_map.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,5 +30,5 @@
     "path": "sprites/spr_parede/spr_parede.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
