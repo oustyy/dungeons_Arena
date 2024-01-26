@@ -30,6 +30,7 @@ _velocidade_vertical = lengthdir_y(velocidade,movimentation_direction);
 
 
 if _correr && _checa_movimentacao{
+	
 	timer -= 1
 	velocidade_maxima = lerp(velocidade_maxima,6,aceleracao)
 	if velocidade > 4{
@@ -43,9 +44,11 @@ if _correr && _checa_movimentacao{
 	velocidade_maxima = lerp(velocidade_maxima,3,aceleracao)
 	if velocidade <= 4{
 		sprite_index = spr_skeleton_walk;
-		}
-}
+			
+		}	
+	
 
+}
 
 if(_checa_movimentacao){
 	movimentation_direction = point_direction(0, 0, (_movimento_horizontal),(_movimento_vertical));
@@ -53,6 +56,7 @@ if(_checa_movimentacao){
 }
 else {
 	
+
 	velocidade = _freiagem
 }
 

@@ -36,9 +36,10 @@ for(var i =0; i< room_count; i++){
 			
 			xx = clamp(xx,4,grid_width - 4);
 			yy = clamp(yy,4,grid_height - 4);
-			if(!instance_exists(obj_playerTeste_1)){
-			instance_create_layer(xx,yy,"instances",obj_playerTeste_1);
-			
+			var x1 = xx * cell_size + cell_size / 2;
+			var y1 = yy * cell_size + cell_size / 2;
+			if(!instance_exists(obj_player1)){
+			instance_create_layer(x1,y1,"instances",obj_player1);
 			}
 			
 		
@@ -66,7 +67,7 @@ for(var xx = 0; xx< grid_width; xx++){
 			tilemap_set(layer_id,index,xx,yy);
 			
 		}else if(grid[# xx,yy] == 1){
-			
+		
 			tilemap_set(layer_id,17,xx,yy);	
 		}
 	}
