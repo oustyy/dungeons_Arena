@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_map",
-    "path": "folders/Objetos/obj_map.yy",
+    "name": "obj_controladores",
+    "path": "folders/Objetos/obj_controladores.yy",
   },
   "parentObjectId": null,
   "persistent": false,

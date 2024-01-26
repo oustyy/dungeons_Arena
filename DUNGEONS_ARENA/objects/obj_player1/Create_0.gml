@@ -1,4 +1,6 @@
-
+global.player_directio = 0;
+global.player_action = 0;
+global.player_image_speed = 0;
 
 dir = 0;
 speedc = 3.0;

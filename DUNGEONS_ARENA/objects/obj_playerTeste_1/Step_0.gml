@@ -29,7 +29,7 @@ _velocidade_horizontal = lengthdir_x(velocidade,movimentation_direction);
 _velocidade_vertical = lengthdir_y(velocidade,movimentation_direction);
 
 
-if _correr && _checa_movimentacao{
+/*if _correr && _checa_movimentacao{
 	
 	timer -= 1
 	velocidade_maxima = lerp(velocidade_maxima,6,aceleracao)
@@ -48,7 +48,7 @@ if _correr && _checa_movimentacao{
 		}	
 	
 
-}
+}*/
 
 if(_checa_movimentacao){
 	movimentation_direction = point_direction(0, 0, (_movimento_horizontal),(_movimento_vertical));
@@ -62,8 +62,18 @@ else {
 
 
 if(velocidade > 0) && (_checa_movimentacao) {
+	sprite_index = spr_perso_run_ns
 	image_speed = _aceleracao_spr
-}else{image_speed = _freiagem}
+}else{
+	if image_speed <= 0 && velocidade == 0 {
+		sprite_index = spr_perso_idle_ns
+		image_speed = 15
+	}
+	else{
+	
+		image_speed = _freiagem
+		}
+	}
 
 if _velocidade_horizontal > 1 {
 	image_xscale = -1

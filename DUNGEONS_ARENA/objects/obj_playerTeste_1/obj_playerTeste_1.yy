@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_skeleton_walk",
-    "path": "sprites/spr_skeleton_walk/spr_skeleton_walk.yy",
+    "name": "spr_perso_idle_ns",
+    "path": "sprites/spr_perso_idle_ns/spr_perso_idle_ns.yy",
   },
   "spriteMaskId": null,
   "visible": true,

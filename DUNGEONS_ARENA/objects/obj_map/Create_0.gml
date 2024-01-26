@@ -41,6 +41,15 @@ for(var i =0; i< room_count; i++){
 			if(!instance_exists(obj_player1)){
 			instance_create_layer(x1,y1,"instances",obj_player1);
 			}
+			if(!instance_exists(obj_item_sword_white)){
+			instance_create_layer(x1+random_range(-75,75),y1+random_range(-75,75),"instances",obj_item_sword_white);
+			}
+			if(!instance_exists(obj_item_sword_gold)){
+			instance_create_layer(x1+random_range(-75,75),y1+random_range(-75,75),"instances",obj_item_sword_gold);
+			}
+			if(!instance_exists(obj_inimigo_1)){
+			instance_create_layer(x1+random_range(-75,75),y1+random_range(-75,75),"instances",obj_inimigo_1);
+			}
 			
 		
 			path_distance --;

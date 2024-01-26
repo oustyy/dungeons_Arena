@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_camera",
-    "path": "folders/Objetos/obj_camera.yy",
+    "path": "folders/Objetos/obj_controladores/obj_camera.yy",
   },
   "parentObjectId": null,
   "persistent": false,
