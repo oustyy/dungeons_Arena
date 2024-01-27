@@ -16,6 +16,7 @@ switch (global.player_action) {
 
     case "ataque 1":
             sprite_index = spr_sword_gold_attack;
+			
         break;
 
     case "ataque 2":

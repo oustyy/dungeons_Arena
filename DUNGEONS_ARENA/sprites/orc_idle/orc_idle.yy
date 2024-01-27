@@ -29,7 +29,7 @@
   "origin": 9,
   "parent": {
     "name": "spr_orc",
-    "path": "folders/Sprites/spr_orc.yy",
+    "path": "folders/Sprites/spr_inimigos/spr_orc.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -65,8 +65,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 26,
-    "yorigin": 26,
+    "xorigin": 22,
+    "yorigin": 50,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

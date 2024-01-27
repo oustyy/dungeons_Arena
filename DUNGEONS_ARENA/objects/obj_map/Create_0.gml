@@ -3,6 +3,9 @@ north = 1;
 west = 2;
 east = 4;
 south = 8;
+qtd_inimigo = 10
+
+
 
 var layer_id = layer_tilemap_get_id("TileMapDungeons");
 
@@ -18,7 +21,7 @@ var xx = grid_width div 2;
 var yy = grid_height div 2;
 var dir = irandom(3);
 var room_count = 9;
-var room_size = 2;
+var room_size = 3;
 
 for(var i =0; i< room_count; i++){
 	
@@ -47,9 +50,7 @@ for(var i =0; i< room_count; i++){
 			if(!instance_exists(obj_item_sword_gold)){
 			instance_create_layer(x1+random_range(-75,75),y1+random_range(-75,75),"instances",obj_item_sword_gold);
 			}
-			if(!instance_exists(obj_inimigo_1)){
-			instance_create_layer(x1+random_range(-75,75),y1+random_range(-75,75),"instances",obj_inimigo_1);
-			}
+			
 			
 		
 			path_distance --;
@@ -76,14 +77,21 @@ for(var xx = 0; xx< grid_width; xx++){
 			tilemap_set(layer_id,index,xx,yy);
 			
 		}else if(grid[# xx,yy] == 1){
-		
+			if(qtd_inimigo > random(10)){
+				if random(100)<= 10{
+				instance_create_layer(x1,y1,"instances",obj_inimigo_1);
+				qtd_inimigo --
+				}
+			}
+			
 			tilemap_set(layer_id,17,xx,yy);	
 		}
 	}
 }
 
 
-
+grid_path = mp_grid_create(0,0,grid_width,grid_height,cell_size,cell_size);
+mp_grid_add_instances(grid_path,obj_parede,false);
 
 
 

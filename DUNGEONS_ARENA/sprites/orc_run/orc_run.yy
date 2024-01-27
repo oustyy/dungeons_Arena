@@ -33,7 +33,7 @@
   "origin": 9,
   "parent": {
     "name": "spr_orc",
-    "path": "folders/Sprites/spr_orc.yy",
+    "path": "folders/Sprites/spr_inimigos/spr_orc.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -73,8 +73,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 23,
-    "yorigin": 25,
+    "xorigin": 19,
+    "yorigin": 50,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

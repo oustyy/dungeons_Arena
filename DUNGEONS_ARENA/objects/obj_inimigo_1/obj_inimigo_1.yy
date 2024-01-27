@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite5",
-    "path": "sprites/Sprite5/Sprite5.yy",
+    "name": "spr_slime_enemy_idle",
+    "path": "sprites/spr_slime_enemy_idle/spr_slime_enemy_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -5,6 +5,7 @@ if distance_to_object(obj_player1)<= global.distancia_coleta && global.arma == f
 	global.coleta = true;
 	image_index = 1
 	if (keyboard_check(ord("E"))) {
+	audio_play_sound(_som_aleatorio,1,0);
 	instance_create_layer(x,y,"instances",sword);
 	instance_destroy();
 	global.coleta = false;
